@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8"/>
     <title>The Echo</title>
     <META name="description" content="">
     <META name="keywords" content="">
-    <style>@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap'); @font-face{font-family:Comfortaa,cursive;}html{overflow-x:hidden;font-family:Raleway,sans-serif}br{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.gradient1{background: #E0EAFC; background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);background: linear-gradient(to right, #CFDEF3, #E0EAFC);}.gradient2{background:#232526;background:-webkit-linear-gradient(to left,#414345,#232526);background:linear-gradient(to left,#414345,#232526)}</style>
+    <style>@import url('<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Righteous&display=swap" rel="stylesheet">'); @font-face{font-family:Comfortaa,cursive;}html{overflow-x:hidden;font-family:Raleway,sans-serif}br{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}h1{font-family: 'Righteous', cursive;}p{font-family: 'Josefin Sans', sans-serif; cursive;}span{font-family: 'Josefin Sans', sans-serif; cursive;}.abs-center-x{position:absolute;left:50%;transform:translateX(-50%)}.sidebar{height:100%;width:0;position:fixed;z-index:1;top:0;right:0;background-color:#111;overflow-x:hidden;padding-top:60px;transition:.5s}.sidebar a{padding:8px 8px 8px 32px;text-decoration:none;font-size:25px;color:#818181;display:block;transition:.3s}.sidebar a:hover{color:#f1f1f1}.sidebar .closebtn{position:absolute;top:0;right:25px;font-size:36px;margin-left:50px}.openbtn{font-size:20px;cursor:pointer;background-color:#111;color:#fff;padding:10px 15px;border:none}.openbtn:hover{background-color:#444}#main{transition:margin-left .5s;padding:20px}@media screen and (max-height:450px){.sidebar{padding-top:15px}.sidebar a{font-size:18px}}</style>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/chomsky" type="text/css"/>
     <script type="text/javascript">
           var stylesheet = document.createElement('link');
           stylesheet.href = 'css/fa.css';
@@ -19,23 +20,34 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
 
-  <body data-offset="50" style="font-family: 'Comfortaa';"  data-spy="scroll" data-offset="50" data-target=".navbar">
+  <body data-offset="50"  data-spy="scroll" data-offset="50" data-target=".navbar">
 
-    <nav class="gradient1 mb-4 navbar navbar-expand-lg navbar-dark fixed-top" role="navigations">
-        <a class="navbar-brand font-bold" href="#"><img src="img/logo.png" height="40" alt=""></a>
-      <a class="navbar-brand font-bold" style="color: black;" href="#">The Echo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText1" aria-controls="navbarText1" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" data-target=".navbar-collapse" data-toggle="collapse" id="navbarText1">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a  href="#about" class="nav-link waves-effect waves-light"><span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="navbar-brand font-bold mr-auto" href="#"></a></li>
-          <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse" class="nav-link waves-effect waves-light" href="#"></a></li>
-        </ul>
-      </div>
-    </nav>
+    <script>function openNav() {document.getElementById("mySidebar").style.width = "250px";document.getElementById("main").style.marginLeft = "250px";}
+            function closeNav() {document.getElementById("mySidebar").style.width = "0";document.getElementById("main").style.marginLeft = "0";}</script>
 
+
+<nav id="topNav" style="padding-right: 2%; padding-left: 3%; padding-top: 1.2%; padding-bottom: 0.6%; background-color:#ffffff; color: #1e272e;" class="shadow navbar-expand-xl navbar fixed-top">
+    <a class="navbar-brand font-bold" href="#"><img src="img/logo.png" height="48" alt=""></a>
+    <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
+    <a class="navbar-brand abs-center-x" style="font-family: 'ChomskyRegular'; color: #111; font-size: 3.1em;" href="#">The Echo</a>
+</nav>
+
+<div class="" style="color: white; background: url(img/integrity.jpg) 50% 0 no-repeat fixed; padding: 6%  9%;"><br><br><br><br><br>
+<div>
+    <h1 class="display-1 text-center" style="font-size: 7em;">INTEGRITY <span class="lead" style="font-size: 1em;"> KNOWS</span></h1>
+</div>
+<div>
+    <h1 class="display-1 text-left" style="font-size: 7em; padding-left: 1.9%">NO <span class="lead" style="font-size: 1em;"> EXCUSE</span></h1>
+</div>
+</div>
 
     <script src="js/bootstrap.min.js"></script>
     <script>new WOW().init();</script>
