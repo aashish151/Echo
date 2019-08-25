@@ -10,7 +10,14 @@
     <style>
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:light');
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
-@import url('fonts/Chomsky.otf');
+@font-face {
+    font-family: 'chomskyregular';
+    src: url('fonts/chomsky-webfont.woff2') format('woff2'),
+         url('fonts/chomsky-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 </style>
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" media="screen" href="fonts/Chomsky.otf" type="text/css"/>
@@ -33,14 +40,14 @@
 
 <nav id="topNav" style="padding-right: 2%; padding-left: 3%; padding-top: 1.2%; padding-bottom: 0.6%; background-color:#ffffff;" class=" color2 shadow-sm navbar-expand-xl navbar fixed-top">
     <a class="navbar-brand font-bold" href="index.html"><img src="img/logo.png" height="48" alt=""></a>
-    <a href="index.html" class="navbar-brand abs-center-x color2" style="font-family: 'ChomskyRegular'; font-size: 4vmax;">The Echo</a>
+    <a href="index.html" class="navbar-brand abs-center-x color2" style="font-family: 'chomskyregular'; font-size: 4vmax;">The Echo</a>
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">Home</a>
       <a href="school-events.html">School Events</a>
       <a href="teachers-notes.html">Teacher's notes</a>
       <a href="students-corner.html">Student's Corner</a>
-      <a href="#">Gallery</a>
+      <a href="gallery.html">Gallery</a>
     </div>
     <button class="openbtn" onclick="openNav()">&#9776;</button>
 </nav>
@@ -59,7 +66,7 @@
             <figcaption>
               <h2 style="font-size: 2rem;">Aashish <span style="font-size: 2rem;">Kalidindi</span></h2><br><br>
               <p style="font-size: 1.1rem; padding-top: 0.7%;">
-                <a href="#"><span style="color: white;">Read More</span></a>
+                <a href="gal/gal.html"><span style="color: white;">Read More</span></a>
               </p>
             </figcaption>
 					</figure>
